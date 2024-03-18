@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Charm&display=swap);
+
+
+body{
+    font-family: Charm, serif;
+    background: linear-gradient(270deg, #0f0000 47%, #ece9f1 100%);
+}
+
+.nav-link{
+    color: rgb(228, 78, 8);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(243, 247, 247);
+}
+
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(243, 247, 247)
+}
+
+
+.sidebar{
+    color: rgb(236, 221, 213);
+    background: linear-gradient(90deg, #0f0000 47%, #ece9f1 100%);
+}
+
+.card{
+    height: 800px;
+    background: linear-gradient(90deg, #0f0000 47%, #ece9f1 100%);
+    color: rgb(236, 221, 213);
+}
+
+.card-img-top {
+    height: 600px;
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(236, 221, 213);
+}
+
+.slide-text {
+    color: rgb(236, 221, 213) ;
+    margin: auto auto;
+
+}
+
+.footer-text {
+    color:rgb(236, 221, 213) ;
+    margin: auto auto;
+
+}
+
+.img-card{
+    height: 800px; 
+}
+
+footer,
+.btn-outline-primary
+{
+    background: linear-gradient(90deg, #0f0000 47%, #ece9f1 100%);
+}
+
+
+p{
+    color:rgb(236, 221, 213) ;   
+}
+
+.call-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+h2{
+    text-align: center;
+    color:rgb(236, 221, 213)
+   
+}
+.text-center>h2{
+    background-color: black;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+
+
+
+
+.media-links{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
